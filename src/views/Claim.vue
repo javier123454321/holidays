@@ -1,26 +1,25 @@
 <template>
   <div class="p-3 h-screen text-center bg-red-50 w-full">
     <div class="max-w-3xl mx-auto">
-      <h2 class="text-4xl font-bold text-red-300 pt-64">'tis the season</h2>
-      <h1 class="text-6xl font-bold text-red-300">
-        Send a Holiday NFT to your friends and family!
-      </h1>
+      <h1 class="text-6xl font-bold text-red-300 pt-40">Claim your NFT</h1>
+      <label for="address" class="mt-8 mb-2">What is your adress</label>
+      <input type="text" name="address" id="address" class="px-4 py-2 w-full" />
+      <button
+        class="
+          rounded-full
+          mt-8
+          bg-white
+          text-red-300 text-xl
+          font-bold
+          px-8
+          py-2
+          shadow-sm
+        "
+        @click="mint"
+      >
+        Mint Here
+      </button>
     </div>
-    <button
-      class="
-        rounded-full
-        mt-8
-        bg-white
-        text-red-300 text-xl
-        font-bold
-        px-8
-        py-2
-        shadow-sm
-      "
-      @click="mint"
-    >
-      Mint Here
-    </button>
   </div>
 </template>
 

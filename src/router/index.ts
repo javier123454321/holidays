@@ -3,6 +3,7 @@ import Home from "../views/Home.vue";
 import Login from "../views/Login.vue";
 import Dashboard from "../views/Dashboard.vue";
 import Profile from "../views/Profile.vue";
+import Claim from "../views/Claim.vue";
 import ProtectedPages from "../components/ProtectedPages.vue";
 import RouterGuard from "./router.guard";
 
@@ -16,6 +17,11 @@ const routes: Array<RouteRecordRaw> = [
     path: "/",
     name: "Home",
     component: Home,
+  },
+  {
+    path: "/claim",
+    name: "Claim",
+    component: Claim,
   },
   {
     path: "/",

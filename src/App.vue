@@ -4,7 +4,9 @@
   >
     <router-link to="Login" class="font-bold text-red-500">Sign In</router-link>
   </nav>
-  <router-view class="pt-48 z-10 block" />
+  <div class="pt-24 z-10 block">
+    <router-view class="" />
+  </div>
 </template>
 
 <style></style>
