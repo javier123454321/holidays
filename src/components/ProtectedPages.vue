@@ -1,7 +1,7 @@
 <template>
-    <button class="btn btn-danger float-end" @click.prevent="logout">
-      Logout
-    </button>
+  <button class="btn btn-danger float-end" @click.prevent="logout">
+    Logout
+  </button>
   <div>{{ message }}</div>
   <router-view />
 </template>
